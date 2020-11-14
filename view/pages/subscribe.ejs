@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title><%= title %></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <link rel="stylesheet" href="assets/css/subscribe.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <script type="module" src="assets/js/client.js"></script>
+</head>
+
+<body>
+    <div id="page-wrapper">
+
+        <!-- header & nav -->
+        <%- include('../../partials/header'); %>
+
+        <!-- banner -->
+        <section id="banner">
+
+            <div class="inner">
+                <div class="gallery"></div>
+            </div>
+        </section>
+
+
+        <main class="gallery">
+            <!-- Gallery will go here -->
+            <main class="form-wrapper">
+                <form action="/users" method="post" class="form">
+                    <fieldset>
+                        <legend>Subscribe</legend>
+                        <p>
+                            <label for="uname">Name: <abbr title="required" aria-label="required"><span
+                                        class="required">*</span></abbr>
+                            </label>
+                            <input id="uname" type="text" name="usersName" placeholder="What is your name?" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:<abbr title="required" aria-label="required"><span
+                                        class="required">*</span></abbr>
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="How do we contact you?" required>
+                        </p>
+                        </li>
+                        </ul>
+                        <button class="subscribe" type="submit">Subscribe</button>
+                    </fieldset>
+                </form>
+            </main>
+
+
+
+            <!-- Footer -->
+            <%- include('../../partials/footer'); %>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

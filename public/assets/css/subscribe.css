@@ -1,0 +1,70 @@
+min-height: 100vh;
+  }
+  /* Text fields */
+  .text-fields p {
+    display: flex;
+
+  }
+  
+  .text-fields p label {
+    width: 10ch;
+  }
+  
+  .text-fields p input {
+    flex: 1;
+    padding:1em 1em ;
+
+     margin: auto ;
+  }
+  
+  /* Checkboxes and Radio buttons */
+  
+  fieldset ul {
+    margin-left: 2rem;
+  }
+  
+  fieldset ul input {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  /* Submit */
+  
+  .FOOTER {
+    color: white;
+    text-align: center;
+
+    padding: 1em;
+    margin-top: 1em;
+  }
+  button {
+    font-size: 15px;
+    padding: 1em;
+
+   background-color:black ;
+   color:white;
+  }
+  button:hover {
+   background-color:thistle;
+   color:black;
+  }
+  
+
+/* Form reset */
+fieldset {
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 1px solid darkgrey;
+}
+ /*red stat */
+abbr {
+  color:red;
+} 
+.creating-account{
+  background-color:wheat;
+  color:black;
+}

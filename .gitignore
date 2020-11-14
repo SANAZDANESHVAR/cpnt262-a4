@@ -1,0 +1,12 @@
+  
+# dotenv environment variables file
+.env
+.env.test
+
+# npm dependency directory
+node_modules
+
+# Other files
+.DS_Store
+.vscode
+.vscode/*
