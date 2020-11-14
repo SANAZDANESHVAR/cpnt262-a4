@@ -16,7 +16,8 @@ i use a template from[Template link] (https://html5up.net)  and pictures from[ p
  Patrick help and support me for  reviewing code debuging and running the code this project in codeing and trouble shooting.
 
 ### problems!!
- It probebly looks good but it dose not work. 
+problems!!
+ It probably looks good but it dose not work. 
 the code  made error after entering node server.js in terminal.
- partick and I  sepet whole day to figured out but we were not sussesful.
+ Partick and I  spent whole day to figured out but we were not successful.
 If I can fixed it the reademe.md will be updated.
